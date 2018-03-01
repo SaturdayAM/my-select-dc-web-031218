@@ -7,6 +7,7 @@ def my_select(collection)
    if temp == true
      to_return << collection[i]
    end
+   i+=1
  end
  to_return
 end
